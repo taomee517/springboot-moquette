@@ -1,0 +1,9 @@
+spring:
+  mqtt:
+    username: admin							# 账号
+    password: public						# 密码
+    host-url: tcp://127.0.0.1:1883			# mqtt连接tcp地址
+    client-id: mqtt-client-test				# 客户端Id，每个启动的id要不同
+    default-topic: test						# 默认主题
+    timeout: 100							# 超时时间
+    keepalive: 100							# 保持连接数

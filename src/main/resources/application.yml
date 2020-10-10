@@ -1,0 +1,6 @@
+server:
+  port: 9563
+
+spring:
+  profiles:
+    active: dev
