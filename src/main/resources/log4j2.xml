@@ -5,7 +5,7 @@
     <!-- 全局参数 -->
     <Properties>
         <property name="FILE_PATH" value="log" />
-        <Property name="APP_NAME">springboot-mosquito</Property>
+        <Property name="APP_NAME">springboot-moquette</Property>
         <Property name="STDOUT_PATTERN">%d{yyyy-MM-dd HH:mm:ss,SSS} | %style{%-5level}{highlight,green} | %style{%t}{blue} | %style{%c{1.}:%L}{yellow} | %m%n</Property>
         <Property name="RDB_PATTERN">%d{yyyy-MM-dd HH:mm:ss,SSS}|${sys:local-ip}|%level|%t|%c|%m%n</Property>
     </Properties>

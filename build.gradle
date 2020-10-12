@@ -21,7 +21,7 @@ apply plugin: "io.spring.dependency-management"
 
 group = "org.example"
 version = "1.0"
-archivesBaseName = 'springboot-mosquito'
+archivesBaseName = 'springboot-moquette'
 
 
 tasks.withType(JavaCompile) {

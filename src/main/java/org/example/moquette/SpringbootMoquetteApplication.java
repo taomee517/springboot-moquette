@@ -1,4 +1,4 @@
-package org.example.mosquito;
+package org.example.moquette;
 
 /**
  * @author 罗涛
@@ -10,8 +10,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootMosquitoApplication {
+public class SpringbootMoquetteApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SpringbootMosquitoApplication.class);
+        SpringApplication.run(SpringbootMoquetteApplication.class);
     }
 }
