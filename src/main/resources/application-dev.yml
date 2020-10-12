@@ -7,3 +7,9 @@ spring:
     default-topic: test						# 默认主题
     timeout: 100							# 超时时间
     keepalive: 100							# 保持连接数
+    tcp-port: 19710
+    websocket-port: 19711
+    secure-websocket-port: 19712
+    allow-anonymous: false
+    message-size: 10485760
+

@@ -45,10 +45,10 @@ task allDepInsight(type: DependencyInsightReportTask){
 }
 
 repositories {
+    maven { url "https://jcenter.bintray.com/" }
     mavenLocal()
-    maven {
-        url 'https://maven.aliyun.com/repository/public'
-    }
+    maven { url 'https://maven.aliyun.com/repository/public'}
+    maven { url "https://repo.spring.io/libs-release/" }
     mavenCentral()
 }
 
@@ -78,6 +78,11 @@ dependencies {
     /**websocket*/
     compile('org.springframework.boot:spring-boot-starter-websocket'){
         exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+    }
+
+    /**moquette-broker*/
+    compile(group: 'io.moquette', name: 'moquette-broker', version: '0.12.1'){
+        exclude group: 'org.slf4j', module: 'slf4j-log4j12'
     }
 
 //    /**integration*/
